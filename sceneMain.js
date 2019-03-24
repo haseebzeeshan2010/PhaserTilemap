@@ -4,11 +4,11 @@ class SceneMain extends Phaser.Scene {
   }
 
   preload() {
-  this.load.image("tiles","assets/assets.png")
-  this.load.tilemapTiledJSON("map","assets/map.json")
-      this.load.image("background","assets/water.png")
-  this.load.spritesheet("player","assets/player.png",{frameWidth:32,frameHeight:64 })
-  this.load.image("slime","assets/slime.png")
+  this.load.image("tiles","assets.png")
+  this.load.tilemapTiledJSON("map","map.json")
+      this.load.image("background","water.png")
+  this.load.spritesheet("player","player.png",{frameWidth:32,frameHeight:64 })
+  this.load.image("slime","slime.png")
   }
 
   create() {
